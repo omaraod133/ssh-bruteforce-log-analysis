@@ -4,8 +4,6 @@
 To analyze SSH authentication logs from a Hack The Box lab and understand how to identify brute-force attempts, session activity, and basic indicators of suspicious SSH behavior in Linux systems.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
-
 - Linux log analysis using authentication logs
 - Recognizing patterns of automated attack attempts on SSH services
 - Ability to generate and recognize attack signatures and patterns.
@@ -13,8 +11,6 @@ To analyze SSH authentication logs from a Hack The Box lab and understand how to
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
-
 - **Linux Command Line** – Used for navigating system logs and performing analysis within the terminal environment.
 - **grep** utility – Used to filter and extract relevant log entries from authentication logs for investigation.
 - **MITRE ATT&CK Framework** – Used to map observed behaviors in the lab to known adversary techniques
