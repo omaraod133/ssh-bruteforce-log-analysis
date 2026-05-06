@@ -41,7 +41,10 @@ as we see there is a lot of logs, let is be spicsfic and see all the Failed logi
 
 <img width="1920" height="947" alt="Screenshot_2026-05-06_18_23_13" src="https://github.com/user-attachments/assets/1211564b-7a8c-4ddb-b844-4a4425d9afaa" />
 
-here we see that 
+here we start to see the bruteforce attack
+
+from this we know that the attack start his bruteforce attack at 06:31:33 and end at 06:31:42 about 9s
+he found valid user which is backup and root (we know that from )
 
 
 
