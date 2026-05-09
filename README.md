@@ -97,7 +97,8 @@ let start answering qoution:
 
   To answer this question, we need to examine the wtmp file.
 
-  <img width="1920" height="947" alt="Screenshot_2026-05-09_18_27_18time" src="https://github.com/user-attachments/assets/2846d0dd-eff6-4acd-8378-  cc6dee15a838" />
+<img width="1920" height="947" alt="Screenshot_2026-05-09_18_27_18time jpg" src="https://github.com/user-attachments/assets/3aec0edc-493d-46a0-a4a3-df2d8a15614e" />
+
   The answer is: 2024-03-06T06:32:45
 
 4- SSH login sessions are tracked and assigned a session number upon login. What is the session number assigned to the attacker's session for the user account from Question 2?
