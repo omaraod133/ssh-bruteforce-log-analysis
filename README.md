@@ -1,4 +1,4 @@
-<img width="1920" height="947" alt="Screenshot_2026-05-09_19_05_01" src="https://github.com/user-attachments/assets/e77ff36c-fbd3-440e-b736-5f67017cc8ab" /># ssh-bruteforce-log-analysis
+# ssh-bruteforce-log-analysis
 
 ## Objective
 To analyze SSH authentication logs from a Hack The Box lab and understand how to identify brute-force attempts, session activity, and basic indicators of suspicious SSH behavior in Linux systems.
