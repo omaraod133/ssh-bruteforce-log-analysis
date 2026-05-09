@@ -74,8 +74,9 @@ Maintain persistence after reboot (allowing the attacker to keep access even aft
 
 
 let is write report:
+
 Summary:
-a bruteforce attack to SSH device ip 172-31-35-28 the attacker get the root password and create account called cyberjunkie and he escalate privilege for that account and get sudo then he downlaod tool linper.sh which can take control of the michine
+A brute-force attack targeting SSH device IP 172.31.35.28. The attacker successfully got the root password and created an account called cyberjunkie, and he escalated privilege for that account and got sudo. Then he downloaded a tool called linper.sh, which can take control of the machine.
 
 Incident Timeline
 - Start time: 06:31:33
