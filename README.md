@@ -85,3 +85,46 @@ Incident Timeline
 
 Affected Asset
 - IP Address: 172.31.35.28
+
+
+
+let start answering qoution:
+1- Analyze the auth.log. What is the IP address used by the attacker to carry out a brute force attack?
+  65.2.161.68
+  2- The bruteforce attempts were successful and attacker gained access to an account on the server. What is the username of the account?
+ root
+ 3- Identify the UTC timestamp when the attacker logged in manually to the server and established a terminal session to carry out their objectives. The login time will be different than the authentication time, and can be found in the wtmp artifact.
+  to anwer this qotion we need to look to wtmp file
+
+<img width="1920" height="947" alt="Screenshot_2026-05-09_18_27_18time" src="https://github.com/user-attachments/assets/2846d0dd-eff6-4acd-8378-cc6dee15a838" />
+the answer is 2024-03-06T06:32:45
+
+ 4- SSH login sessions are tracked and assigned a session number upon login. What is the session number assigned to the attacker's session for the user account from Question 2?
+(the session number for user root )
+
+ <img width="1920" height="947" alt="Screenshot_2026-05-09_18_41_56 expla" src="https://github.com/user-attachments/assets/d7689790-c5eb-4913-9202-0887274bd9b5" />
+
+here as we see there are two sesstion started one is 34 and the other is 37
+and the correct answer is 37 why???
+becase the 34 seestion is start is at 06:31:40 and immeditly closed (it is like test)
+where the 37 session is started at  06:32:44 and end at 06:37:57 about 5 minite 
+
+
+5- The attacker added a new user as part of their persistence strategy on the server and gave this new user account higher privileges. What is the name of this account?
+ it is cyberjunkie
+
+6-  What is the MITRE ATT&CK sub-technique ID used for persistence by creating a new account?
+  this attack is about creating new account 
+
+ <img width="1850" height="913" alt="{0BCB62DE-249F-4DC8-9BB8-55F95B6563FB}" src="https://github.com/user-attachments/assets/0d713657-79d6-4461-ada1-2fe1bcb5791f" />
+
+  it local acount whcih is cyberjunkie
+  so the corecct answer is  T1136.001 
+
+  7- What time did the attacker's first SSH session end according to auth.log?
+    <img width="1920" height="947" alt="susfiye" src="https://github.com/user-attachments/assets/39b8df7c-0129-4a90-a7c9-01cbad5a9489" />
+    since it said first **SSH** all of these CRON is not the answer
+    so the correct answer is at 06:37:24
+
+    
+ 
